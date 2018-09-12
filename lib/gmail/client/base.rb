@@ -208,7 +208,7 @@ module Gmail
       end
 
       def fill_username(username)
-        username =~ /@/ ? username : "#{username}@gmail.com"
+        username =~ /@/ ? username : "#{username}@71lbs.com"
       end
 
       def mail_domain
